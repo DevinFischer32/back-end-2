@@ -18,7 +18,7 @@ module.exports = {
         const newHouse = {
             id: globalId,
             address: address,
-            price: price,
+            price: +price,
             imageURL: imageURL
         }
         houses.push(newHouse)

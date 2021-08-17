@@ -1,7 +1,6 @@
 const express = require('express')
 const cors = require('cors')
 const ctrl = require('./controller') 
-const { getHouses } = require('./controller')
 
 const app = express()
 
